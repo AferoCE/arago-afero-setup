@@ -11,4 +11,4 @@ meta-linaro,ssh://git.corp.kiban.io:9418/afero/meta-linaro-toolchain.git,master,
 oe-core,git://git.openembedded.org/openembedded-core,krogoth,b0b91490e4ede61a302eb547da2cc65aa7da87ff,layers=meta
 OECORELAYERCONF=./sample-files/bblayers.conf.sample
 OECORELOCALCONF=./sample-files/local-afero.conf.sample
-meta-afero,ssh://git.corp.kiban.io:9418/yocto/meta-afero.git,dlink-m7.1,HEAD,layers=
+meta-afero,ssh://git@github.com/KibanLabsInc/meta-afero-bbgw,dlink-m7.1,HEAD,layers=
