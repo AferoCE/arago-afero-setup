@@ -1,13 +1,13 @@
 # This file takes repo entries in the format
 # repo name,repo uri,repo branch,repo commit[,layers=layer1:layer2...:layern]
 
-bitbake,ssh://git@github.com/KibanLabsInc/bitbake,1.30.git_patch,9fe16c6dd8ba5ce2a66f99c9a21a5b54d0926244,layers=
+bitbake,git://git.openembedded.org/bitbake,1.30,d0a4652fec6d3968b65b4a2776948a7b9e19407e,layers=
 meta-processor-sdk,git://arago-project.org/git/projects/meta-processor-sdk.git,master,1686d851985872f34ca3a2c30d4a0726a20a5c99,layers=
-meta-arago,ssh://git.corp.kiban.io:9418/afero/meta-arago.git,ti-sdk-03.00.00.04,36598b78a6d9fbe442f93111f64d3413c04418a8,layers=meta-arago-distro:meta-arago-extras
+meta-arago,git://arago-project.org/git/meta-arago.git,ti2016.01,36598b78a6d9fbe442f93111f64d3413c04418a8,layers=meta-arago-distro:meta-arago-extras
 meta-qt5,git://github.com/meta-qt5/meta-qt5.git,krogoth,d715f2c1d340fa38f8a9860acc73de5e14a38b75,layers=
 meta-openembedded,git://git.openembedded.org/meta-openembedded,krogoth,247b1267bbe95719cd4877d2d3cfbaf2a2f4865a,layers=meta-networking:meta-ruby:meta-python:meta-oe
 meta-ti,git://arago-project.org/git/meta-ti.git,krogoth,1ae0cadb1200d0007a779958e852a48379d42c26,layers=
-meta-linaro,ssh://git.corp.kiban.io:9418/afero/meta-linaro-toolchain.git,master,ad006055078591d9d09f598d51a8cb0e5caa9524,layers=meta-linaro-toolchain
+meta-linaro,git://git.linaro.org/openembedded/meta-linaro.git,krogoth,2f51d38048599d9878f149d6d15539fb97603f8f,layers=meta-linaro-toolchain
 oe-core,git://git.openembedded.org/openembedded-core,krogoth,b0b91490e4ede61a302eb547da2cc65aa7da87ff,layers=meta
 OECORELAYERCONF=./sample-files/bblayers.conf.sample
 OECORELOCALCONF=./sample-files/local-afero.conf.sample
